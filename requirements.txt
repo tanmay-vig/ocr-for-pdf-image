@@ -1,5 +1,4 @@
 Flask
 pytesseract 
-ocrmypdf
 Pillow
-camelot-py
+pypdf

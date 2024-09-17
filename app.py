@@ -41,7 +41,7 @@ def index():
 
                 # Process the uploaded file
                 if filename.lower().endswith('.pdf'):
-                    file_response = handle_pdf(file_path, app.config['UPLOAD_FOLDER'])
+                    file_response = handle_pdf(file_path)
                 elif filename.lower().endswith(('.png', '.jpg', '.jpeg')):
                     file_response = handle_image(file_path)
                 else:
